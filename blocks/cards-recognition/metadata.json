@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-recognition",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-06T05:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.broadridge.com/",
+    "originPage": "Corporate homepage - Recognized by Industry section",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "recognition-bento",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "badge + heading + link per card (bento grid: 1 large + 3 small)",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "award/recognition showcase sections",
+      "bento grid card layouts",
+      "press release highlight grids"
+    ],
+    "notSuitableFor": [
+      "uniform grid card layouts",
+      "image-heavy product cards",
+      "text-only listing cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T05:20:00.000Z"
+  }
+}

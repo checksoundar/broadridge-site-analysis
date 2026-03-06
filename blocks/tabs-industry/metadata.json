@@ -1,0 +1,39 @@
+{
+  "variantName": "tabs-industry",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-03-06T05:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.broadridge.com/",
+    "originPage": "Corporate homepage - Powering the Pulse section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "industry-tabs",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tab label + image + title + description + CTA per tab",
+    "buttonCount": 5,
+    "imageCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "industry/vertical overview sections",
+      "horizontal tabs with image+text content",
+      "category browsing interfaces"
+    ],
+    "notSuitableFor": [
+      "vertical/side tab layouts",
+      "text-only tab content",
+      "accordion-style expandable content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T05:20:00.000Z"
+  }
+}

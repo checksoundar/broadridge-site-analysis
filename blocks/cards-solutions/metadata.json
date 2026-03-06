@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-solutions",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-06T05:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.broadridge.com/",
+    "originPage": "Corporate homepage - Featured Solutions section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "solutions-grid",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + title + description + link",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "solution/service overview grids",
+      "feature highlight sections with icons",
+      "product capability cards"
+    ],
+    "notSuitableFor": [
+      "image-heavy card layouts",
+      "article or blog listing cards",
+      "testimonial cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T05:20:00.000Z"
+  }
+}

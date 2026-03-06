@@ -1,0 +1,143 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.broadridge.com/"
+      ],
+      "description": "Broadridge corporate homepage with hero banner, product/service highlights, and corporate messaging",
+      "blocks": [
+        {
+          "name": "hero-corporate",
+          "instances": [
+            "section.hero-deconstructed"
+          ]
+        },
+        {
+          "name": "cards-solutions",
+          "instances": [
+            ".featured-solutions__card-grid"
+          ]
+        },
+        {
+          "name": "carousel-insights",
+          "instances": [
+            ".insights__slider"
+          ]
+        },
+        {
+          "name": "tabs-industry",
+          "instances": [
+            ".top-tabber__wrap"
+          ]
+        },
+        {
+          "name": "tabs-capabilities",
+          "instances": [
+            ".side-tabber__wrap"
+          ]
+        },
+        {
+          "name": "cards-recognition",
+          "instances": [
+            ".analyst-recognition__grid"
+          ]
+        },
+        {
+          "name": "form",
+          "instances": [
+            ".contact-us__form"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "section.hero-deconstructed",
+          "style": null,
+          "blocks": [
+            "hero-corporate"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Featured Solutions",
+          "selector": "section.featured-solutions",
+          "style": "light",
+          "blocks": [
+            "cards-solutions"
+          ],
+          "defaultContent": [
+            ".featured-solutions__wrap > .section-header h2"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Insights",
+          "selector": "section.insights",
+          "style": "dark",
+          "blocks": [
+            "carousel-insights"
+          ],
+          "defaultContent": [
+            ".insights__wrap > .section-header h2",
+            ".insights__cta"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Industry Tabs",
+          "selector": "section.top-tabber",
+          "style": null,
+          "blocks": [
+            "tabs-industry"
+          ],
+          "defaultContent": [
+            ".top-tabber__heading h2"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Capabilities Tabs",
+          "selector": "section.side-tabber",
+          "style": null,
+          "blocks": [
+            "tabs-capabilities"
+          ],
+          "defaultContent": [
+            ".side-tabber__wrap > .section-header h2",
+            ".side-tabber__wrap > .section-header .side-tabber__description"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Analyst Recognition",
+          "selector": "section.analyst-recognition",
+          "style": "light",
+          "blocks": [
+            "cards-recognition"
+          ],
+          "defaultContent": [
+            ".analyst-recognition__wrap > .section-header h2",
+            ".analyst-recognition__cta"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Contact Us",
+          "selector": "section.contact-us#abc",
+          "style": null,
+          "blocks": [
+            "form"
+          ],
+          "defaultContent": [
+            ".contact-us__top .section-header h2",
+            ".contact-us__top .section-header .text-atom"
+          ]
+        }
+      ]
+    }
+  ]
+}
