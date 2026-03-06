@@ -1,0 +1,39 @@
+{
+  "variantName": "tabs-capabilities",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-03-06T05:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.broadridge.com/",
+    "originPage": "Corporate homepage - Our Capabilities section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "capabilities-tabs",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "tab label + title + description + CTA per tab (vertical layout)",
+    "buttonCount": 7,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "capability/service detail sections with vertical tabs",
+      "side navigation with content panels",
+      "feature exploration interfaces"
+    ],
+    "notSuitableFor": [
+      "horizontal tab layouts",
+      "image-heavy tab content",
+      "simple FAQ or accordion content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T05:20:00.000Z"
+  }
+}
